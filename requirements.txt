@@ -1,11 +1,22 @@
+# Telegram clients
 python-telegram-bot==22.5
 pyrogram==2.0.106
-tgcrypto-pyrofork==1.2.8
+
+# Crypto (Pyrogram speedups) - pinned for Python 3.9
+tgcrypto-pyrofork==1.2.7
+
+# Async webserver
 aiohttp==3.13.3
 aiohttp-cors==0.8.1
+
+# Scraping / HTTP
 requests==2.32.5
 urllib3>=2.0.0
+
+# HTML parsing
 beautifulsoup4==4.14.3
 lxml>=4.9.0
+
+# Browser automation
 undetected-chromedriver==3.5.5
 selenium==4.39.0
