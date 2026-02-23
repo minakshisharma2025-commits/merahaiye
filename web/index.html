@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BollyFlix Admin - Workspace</title>
+    <!-- Inter Font for premium SaaS look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for clean icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-theme">
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container"></div>
+
+    <!-- Main App Container -->
+    <div class="app-container">
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-solid fa-film"></i>
+                    <span>BollyFlix Admin</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active" data-tab="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i> Dashboard
+                </a>
+                <a href="#" class="nav-item" data-tab="users">
+                    <i class="fa-solid fa-users"></i> User Directory
+                </a>
+                <a href="#" class="nav-item owner-only" data-tab="config">
+                    <i class="fa-solid fa-sliders"></i> System Config
+                </a>
+                <a href="#" class="nav-item admin-only" data-tab="logs">
+                    <i class="fa-solid fa-terminal"></i> Build Logs
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <div class="user-info">
+                        <span id="current-user-id">Loading...</span>
+                        <span id="current-user-role" class="badge role-badge">Admin</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+            <!-- Topbar -->
+            <header class="topbar">
+                <div class="page-title">
+                    <h1 id="active-tab-title">Dashboard Overview</h1>
+                </div>
+                <div class="topbar-actions">
+                    <button class="btn btn-icon" id="refresh-btn" title="Refresh Data">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                    <div class="status-indicator">
+                        <span class="status-dot online"></span>
+                        <span id="server-status">Bot Online</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- TAB: Dashboard -->
+            <section id="tab-dashboard" class="tab-pane active">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon blue"><i class="fa-solid fa-users"></i></div>
+                        <div class="stat-details">
+                            <h3>Total Users</h3>
+                            <p id="stat-total-users">--</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon green"><i class="fa-solid fa-download"></i></div>
+                        <div class="stat-details">
+                            <h3>Downloads</h3>
+                            <p id="stat-total-downloads">--</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon purple"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="stat-details">
+                            <h3>Searches</h3>
+                            <p id="stat-total-searches">--</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon orange"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="stat-details">
+                            <h3>Active (24h)</h3>
+                            <p id="stat-active-24h">--</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB: Users Management -->
+            <section id="tab-users" class="tab-pane">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>User Directory</h2>
+                        <div class="search-box">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" id="user-search" placeholder="Search ID or Name...">
+                        </div>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>User ID</th>
+                                    <th>Name</th>
+                                    <th>Joined</th>
+                                    <th>Stats</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="users-table-body">
+                                <tr>
+                                    <td colspan="6" class="text-center">Loading users...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="pagination">
+                        <span id="page-info">Page 1 of 1</span>
+                        <div class="page-controls">
+                            <button id="prev-page" class="btn btn-outline" disabled>Prev</button>
+                            <button id="next-page" class="btn btn-outline" disabled>Next</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB: Config Editor -->
+            <section id="tab-config" class="tab-pane">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>System Configuration</h2>
+                        <button id="save-config-btn" class="btn btn-primary">
+                            <i class="fa-solid fa-save"></i> Deploy Changes
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted mb-4">Editing fields will directly modify the bot's live
+                            <code>config.py</code>. Restart might be required for major token changes.</p>
+
+                        <form id="config-form" class="config-grid">
+                            <!-- Injected by JS -->
+                            <div class="text-center" style="grid-column: 1/-1;">Loading configuration... <i
+                                    class="fa-solid fa-spinner fa-spin"></i></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB: System Logs -->
+            <section id="tab-logs" class="tab-pane">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Bot Runtime Logs</h2>
+                        <button id="refresh-logs-btn" class="btn btn-outline">
+                            <i class="fa-solid fa-arrows-rotate"></i> Reload Viewer
+                        </button>
+                    </div>
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="mac-btns">
+                                <span class="mac-btn red"></span>
+                                <span class="mac-btn yellow"></span>
+                                <span class="mac-btn green"></span>
+                            </div>
+                            <span class="terminal-title">~/bollyflix/logs</span>
+                        </div>
+                        <div class="terminal-body" id="logs-container">
+                            <div class="log-line">Fetching system logs...</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div id="ban-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="ban-modal-title">Manage User</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="ban-user-id">
+                <div class="form-group">
+                    <label>Action</label>
+                    <select id="ban-action" class="form-control">
+                        <option value="ban">Ban User</option>
+                        <option value="unban">Unban User</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-top: 1rem;">
+                    <label>Reason (Optional)</label>
+                    <input type="text" id="ban-reason" class="form-control" placeholder="Violation of rules...">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline close-modal">Cancel</button>
+                <button class="btn btn-danger" id="confirm-ban-btn">Confirm Action</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
