@@ -2,7 +2,7 @@
 python-telegram-bot==22.5
 pyrogram==2.0.106
 
-# Crypto (Pyrogram speedups) - pinned for Python 3.9
+# Crypto (Pyrogram speedups)
 tgcrypto-pyrofork==1.2.7
 
 # Async webserver
@@ -17,6 +17,6 @@ urllib3>=2.0.0
 beautifulsoup4==4.14.3
 lxml>=4.9.0
 
-# Browser automation
+# Browser automation (pinned to last selenium that supports py3.9)
 undetected-chromedriver==3.5.5
-selenium==4.39.0
+selenium==4.36.0
