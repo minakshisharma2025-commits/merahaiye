@@ -1,0 +1,539 @@
+{
+  "users": {
+    "1651746145": {
+      "user_id": 1651746145,
+      "username": null,
+      "first_name": "A K A S H",
+      "last_name": null,
+      "joined": "2026-02-23T09:45:31.130660",
+      "last_active": "2026-02-23T16:02:30.846542",
+      "searches": 71,
+      "downloads": 57,
+      "banned": false,
+      "ban_reason": null,
+      "is_premium": false
+    },
+    "1348051073": {
+      "user_id": 1348051073,
+      "username": "Tujhsepuchakisne",
+      "first_name": "ऋषभ 🥂",
+      "last_name": null,
+      "joined": "2026-02-23T11:06:16.002085",
+      "last_active": "2026-02-23T11:06:16.002094",
+      "searches": 1,
+      "downloads": 0,
+      "banned": false,
+      "ban_reason": null,
+      "is_premium": false
+    },
+    "7535661499": {
+      "user_id": 7535661499,
+      "username": "ceoxd",
+      "first_name": "【♰】༺Leͥgeͣnͫd༻𝔸𝕕𝕕𝕪™",
+      "last_name": null,
+      "joined": "2026-02-23T13:59:33.853744",
+      "last_active": "2026-02-23T13:59:33.853757",
+      "searches": 1,
+      "downloads": 0,
+      "banned": false,
+      "ban_reason": null,
+      "is_premium": false,
+      "role": "user"
+    }
+  },
+  "searches": [
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:08:39.855266"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "robot",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:10:45.907554"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "breaking bad",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:14:56.870841"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "avengers",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:16:36.774620"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "breaking bad",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:23:37.410358"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "dragon ball",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:25:57.411620"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:35:55.402242"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:45:28.949213"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T10:47:16.572713"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:02:02.893522"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "breaking bad",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:33:08.831160"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "tje boys",
+      "results_count": 3,
+      "timestamp": "2026-02-23T11:33:20.237386"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "the boys",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:33:24.120775"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:37:15.457994"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "spider man",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:49:59.814745"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T11:53:32.202347"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T12:06:08.901735"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T12:13:26.913740"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "avengers",
+      "results_count": 10,
+      "timestamp": "2026-02-23T12:23:32.952130"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "captain",
+      "results_count": 10,
+      "timestamp": "2026-02-23T12:48:05.816123"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "akash",
+      "results_count": 10,
+      "timestamp": "2026-02-23T13:43:53.625950"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T13:44:46.754735"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "pushpa",
+      "results_count": 10,
+      "timestamp": "2026-02-23T13:46:18.597637"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "superman",
+      "results_count": 10,
+      "timestamp": "2026-02-23T13:47:00.592941"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "as",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:18:05.583214"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:19:28.553586"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:24:06.241065"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:33:52.315476"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:42:38.993981"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:48:36.434404"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "animated series",
+      "results_count": 10,
+      "timestamp": "2026-02-23T15:51:11.649745"
+    },
+    {
+      "user_id": 1651746145,
+      "query": "spider-man",
+      "results_count": 10,
+      "timestamp": "2026-02-23T16:03:02.288213"
+    }
+  ],
+  "downloads": [
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rule – Part 2 RELOADED (2024) | |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T10:08:55.628959"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Robot (2010) |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T10:11:03.654653"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Breaking Bad (Season 1 – 5) | S02",
+      "quality": "720p",
+      "content_type": "series",
+      "season": "S02",
+      "timestamp": "2026-02-23T10:24:00.647162"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rule – Part 2 RELOADED (2024) | | S01",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T10:36:08.437721"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rise (2021) |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T10:45:39.179422"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "O Pushpa I Hate Tears (2020) | S01",
+      "quality": "720p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T10:47:29.029416"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "O Pushpa I Hate Tears (2020) | S01",
+      "quality": "720p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T11:02:18.330110"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "O Pushpa I Hate Tears (2020) | S01",
+      "quality": "720p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T11:02:34.861603"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "The Boys (Season 1-4) | | S03",
+      "quality": "2160p",
+      "content_type": "series",
+      "season": "S03",
+      "timestamp": "2026-02-23T11:34:26.820520"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "The Boys (Season 1-4) | | S03",
+      "quality": "2160p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T11:34:45.458694"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rule – Part 2 RELOADED (2024) | | S01",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T11:37:39.774322"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rule – Part 2 RELOADED (2024) | | S01",
+      "quality": "480p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T11:53:47.507482"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rise (2021) |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T12:06:18.059991"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Bade Ghar Ki Beti (1989) | S01",
+      "quality": "720p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T12:13:42.242371"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Avengers: Endgame (2019) | |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T12:23:58.398475"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Avengers: Endgame (2019) | |",
+      "quality": "1080p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T12:24:15.224387"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Captain America: Brave New World (2025) | | S01",
+      "quality": "1080p HQ",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T12:48:30.332056"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Captain America: Brave New World (2025) | | S01",
+      "quality": "1080p HQ",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T12:48:46.724948"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rise (2021) |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T13:44:58.548141"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Pushpa: The Rise (2021) |",
+      "quality": "1080p",
+      "content_type": "dl_fastdl",
+      "season": null,
+      "timestamp": "2026-02-23T13:45:13.514135"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Superman (2025) IMAX | | S01",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T13:47:20.327543"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Superman (2025) IMAX | | S01",
+      "quality": "1080p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T13:51:15.469523"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Spider-Man: The Animated Series (Season 1 – 5) English S02",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S02",
+      "timestamp": "2026-02-23T15:19:54.319825"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Spider-Man: The Animated Series (Season 1 – 5) English S02",
+      "quality": "1080p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T15:21:37.313915"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Green Lantern: The Animated Series (Season 1) | S01",
+      "quality": "720p",
+      "content_type": "series",
+      "season": "S01",
+      "timestamp": "2026-02-23T15:24:20.777361"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Green Lantern: The Animated Series (Season 1) | S01",
+      "quality": "720p",
+      "content_type": "dl_fastdl",
+      "season": null,
+      "timestamp": "2026-02-23T15:25:37.422023"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "X-Men: The Animated Series (Season 1-5) English S03",
+      "quality": "480p",
+      "content_type": "series",
+      "season": "S03",
+      "timestamp": "2026-02-23T15:34:14.038259"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "The Simpsons (Season 1 – 37) English S08",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S08",
+      "timestamp": "2026-02-23T15:43:00.377138"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "The Simpsons (Season 1 – 37) English S08",
+      "quality": "1080p",
+      "content_type": "dl_fastdl",
+      "season": null,
+      "timestamp": "2026-02-23T15:44:35.582425"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Batman: The Animated Series (Season 1-4) English S03",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S03",
+      "timestamp": "2026-02-23T15:48:58.197390"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Rick and Morty (Season 1 – 8) English S06",
+      "quality": "1080p",
+      "content_type": "series",
+      "season": "S06",
+      "timestamp": "2026-02-23T15:51:32.634190"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Rick and Morty (Season 1 – 8) English S06",
+      "quality": "1080p",
+      "content_type": "dl_telegram",
+      "season": null,
+      "timestamp": "2026-02-23T15:52:00.762638"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Spider-Man (2002) | |",
+      "quality": "1080p",
+      "content_type": "movie",
+      "season": null,
+      "timestamp": "2026-02-23T16:07:16.635393"
+    },
+    {
+      "user_id": 1651746145,
+      "title": "Spider-Man (2002) | |",
+      "quality": "1080p",
+      "content_type": "dl_fastdl",
+      "season": null,
+      "timestamp": "2026-02-23T16:07:34.415198"
+    }
+  ],
+  "cache": {
+    "0a826ecd89769a6a": {
+      "url": "0a826ecd89769a6a",
+      "result_url": "https://t.me/gdflix03_bot?start=R2xoTlVEZ2hTQkpZSThXZ3lzSHladz09",
+      "timestamp": "2026-02-23T15:49:06.360363",
+      "hit_count": 0
+    },
+    "0f8dbae5dbeb04a0": {
+      "url": "0f8dbae5dbeb04a0",
+      "result_url": "https://t.me/gdflix03_bot?start=cnNUckhlSkxzaXp5WUNLeU5peE1Vdz09",
+      "timestamp": "2026-02-23T15:51:39.373229",
+      "hit_count": 0
+    },
+    "7b585eb31ca37740": {
+      "url": "7b585eb31ca37740",
+      "result_url": "https://t.me/gdflix26_bot?start=3_2917y9v4x7w9",
+      "timestamp": "2026-02-23T16:07:22.310210",
+      "hit_count": 0
+    }
+  },
+  "user_settings": {},
+  "stats": {
+    "total_searches": 73,
+    "total_downloads": 57,
+    "bot_started": "2026-02-23T09:45:09.335898",
+    "last_updated": "2026-02-23T16:07:34.415268"
+  }
+}
